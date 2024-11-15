@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "myfox-programmer-task-skeleton",
+  "description": "Fill it",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
