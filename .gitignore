@@ -25,3 +25,6 @@ yarn-error.log*
 .idea
 
 documentation
+
+src/__generated__
+src/config.ts

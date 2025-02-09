@@ -18,9 +18,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "@gql-types": ["src/__generated__/types"]
+    }
   },
   "include": [
-    "src"
+    "src",
+    "src/__generated__/types"
+  ],
+  "exclude": [
+    "src/__generated__"
   ]
 }

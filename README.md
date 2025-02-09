@@ -2,9 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Before running `yarn start`, you need to copy `src/config.default.ts` to `src/config.ts` and fill relevant values and run `yarn generate`.
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn generate`
+
+Necessary to generate GQL schema types
 
 ### `yarn start`
 
